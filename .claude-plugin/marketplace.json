@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jessedegans-plugins",
+  "description": "Claude Code plugins by Jesse de Gans",
+  "owner": {
+    "name": "Jesse de Gans"
+  },
+  "plugins": [
+    {
+      "name": "breather",
+      "description": "Stop AI brain fry. Automatic wellness monitoring for Claude Code.",
+      "category": "productivity",
+      "source": "./plugins/breather"
+    }
+  ]
+}
