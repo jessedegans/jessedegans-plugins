@@ -29,8 +29,11 @@ jq -n --arg sid "$SESSION_ID" --argjson ts "$NOW" --arg warn "$MARATHON_WARNING"
   session_id: $sid,
   start_ts: $ts,
   prompt_count: 0,
-  breaks_taken: 0,
+  full_breaks: 0,
+  quick_breaks: 0,
   last_break_ts: $ts,
+  last_full_break_ts: null,
+  last_quick_break_ts: null,
   last_nudge_ts: 0,
   intention: null,
   pattern_warning: $warn

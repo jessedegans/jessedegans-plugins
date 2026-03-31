@@ -16,12 +16,12 @@ Provide an honest, non-preachy assessment of the current session.
    - Total session duration (from start_ts)
    - Time since last break (from last_break_ts)
    - Prompt count
-   - Breaks taken
+   - Full breaks (full_breaks) and stretches (quick_breaks)
 
 3. **Assess the session** and respond with a brief status. Tone depends on the numbers:
 
    **Under 50 min, breaks taken:** Just the facts, positive.
-   > Session: 42m, 18 prompts, 1 break. You're in good shape.
+   > Session: 42m, 18 prompts, 1 full break, 3 stretches. You're in good shape.
 
    **50-90 min, no break:** Neutral observation.
    > Session: 1h 5m, 28 prompts, no breaks yet. Might want to think about one soon. /breather:pause saves your spot.

@@ -15,8 +15,11 @@ if [ ! -f "$SESSION_FILE" ]; then
     session_id: "recovered",
     start_ts: $ts,
     prompt_count: 0,
-    breaks_taken: 0,
+    full_breaks: 0,
+    quick_breaks: 0,
     last_break_ts: $ts,
+    last_full_break_ts: null,
+    last_quick_break_ts: null,
     last_nudge_ts: 0,
     intention: null
   }' > "$SESSION_FILE"
@@ -24,7 +27,7 @@ fi
 
 START_TS=$(jq -r '.start_ts' "$SESSION_FILE")
 PROMPT_COUNT=$(jq -r '.prompt_count' "$SESSION_FILE")
-BREAKS_TAKEN=$(jq -r '.breaks_taken // 0' "$SESSION_FILE")
+FULL_BREAKS=$(jq -r '.full_breaks // 0' "$SESSION_FILE")
 LAST_BREAK_TS=$(jq -r '.last_break_ts' "$SESSION_FILE")
 LAST_NUDGE_TS=$(jq -r '.last_nudge_ts // 0' "$SESSION_FILE")
 

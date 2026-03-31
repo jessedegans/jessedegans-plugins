@@ -1,6 +1,6 @@
 ---
 name: pause
-description: Use when the user wants to take a break, step away, save their context, or says "pause", "break", "stepping away", "brb", "I need to stop". Also use when breather check-ins suggest a break and the user agrees.
+description: Use when the user wants to take a full break, step away, save their context, or says "pause", "break", "stepping away", "I need to stop". Also use when breather check-ins suggest a break and the user agrees. For quick breaks ("brb", "grabbing coffee", "need a sec"), use /breather:stretch instead.
 argument-hint: optional reason for pausing
 allowed-tools: Read, Write, Bash
 ---
@@ -36,5 +36,6 @@ The user is taking a break. Your job: make resuming effortless so the break feel
    > You've been going for [duration]. [Break suggestion].
    >
    > When you're back, just say "back" or /breather:back and I'll get you up to speed.
+   > For a quick break without context saving, use /breather:stretch instead.
 
 Keep it warm but short. They're taking a break - don't make them read a wall of text first.
