@@ -4,7 +4,7 @@ description: Use when the user is wrapping up a session and says "reflect", "don
 allowed-tools: Read, Bash
 ---
 
-# Reflect — End-of-Session Review
+# Reflect - End-of-Session Review
 
 The user is wrapping up. Give them a clear picture of what happened and set up tomorrow.
 
@@ -37,9 +37,9 @@ The user is wrapping up. Give them a clear picture of what happened and set up t
 5. **If session history exists**, add a weekly view:
    > **This week:** [N] sessions, [X]h total, avg [Y]h per session, [Z] breaks total.
 
-6. **If the session was long with no breaks**, note it factually — not as a lecture, but as data:
+6. **If the session was long with no breaks**, note it factually - not as a lecture, but as data:
    > Note: 4h straight, no breaks. That's been the pattern this week. Something to think about.
 
 7. **Save the reflection** to `${CLAUDE_PLUGIN_DATA:-~/.local/share/breather}/last-reflection.md` so the next session can reference it.
 
-8. **End positively** — acknowledge what they shipped, not what they should have done differently.
+8. **End positively** - acknowledge what they shipped, not what they should have done differently.

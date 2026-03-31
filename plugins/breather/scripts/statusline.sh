@@ -1,6 +1,5 @@
 #!/bin/bash
-# Breather status line — always-visible session timer with color coding
-# Receives session JSON via stdin from Claude Code
+# Breather status line -- always-visible session timer with color coding
 
 INPUT=$(cat)
 
@@ -17,15 +16,15 @@ if [ -f "$SESSION_FILE" ]; then
   BREAKS=$(jq -r '.breaks_taken // 0' "$SESSION_FILE" 2>/dev/null || echo "0")
 fi
 
-# Color thresholds (ANSI)
-if [ "$DURATION_MIN" -ge 180 ]; then
-  # Red — you really need a break
+# Color thresholds -- matched to nudge thresholds
+if [ "$DURATION_MIN" -ge 90 ]; then
+  # Red -- you really need a break
   printf '\033[31m%dh %dm\033[0m' "$HOURS" "$MINS"
-elif [ "$DURATION_MIN" -ge 90 ]; then
-  # Yellow — getting long
+elif [ "$DURATION_MIN" -ge 50 ]; then
+  # Yellow -- break time soon
   printf '\033[33m%dh %dm\033[0m' "$HOURS" "$MINS"
 else
-  # Green — you're fine
+  # Green -- you're fine
   printf '\033[32m%dh %dm\033[0m' "$HOURS" "$MINS"
 fi
 

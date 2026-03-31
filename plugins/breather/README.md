@@ -18,7 +18,7 @@ Breather runs **automatically**, no discipline required. That's the point. If yo
 |---------|-------------|
 | **Session timer** | Color-coded status line: green < 90min, yellow < 3h, red 3h+. Always visible. |
 | **Prompt tracking** | Counts prompts and session duration in the background |
-| **Smart nudges** | After 2+ hours without a break, weaves awareness into Claude's responses — not a popup, just a natural mention |
+| **Smart nudges** | After 2+ hours without a break, weaves awareness into Claude's responses - not a popup, just a natural mention |
 | **Check-in loop** | Auto-starts a 45-minute wellness check at session start. You didn't ask for it. It just happens. |
 | **Session logging** | Logs every session so you can see your patterns over time |
 
@@ -26,7 +26,7 @@ Breather runs **automatically**, no discipline required. That's the point. If yo
 
 | Command | What it does |
 |---------|-------------|
-| `/pause` | Saves your full context — what you're doing, where you left off, what's next. Suggests a break duration based on how long you've been going. |
+| `/pause` | Saves your full context - what you're doing, where you left off, what's next. Suggests a break duration based on how long you've been going. |
 | `/resume` | Restores your context instantly. No ramp-up time. Just: "Welcome back. You were working on X. Next step is Y." |
 | `/checkin` | On-demand session status. Honest numbers, no guilt. |
 | `/reflect` | End-of-session summary: what you shipped, open threads, weekly trends. |
@@ -77,8 +77,8 @@ This isn't wellness theater. Every threshold is backed by research:
 
 | Finding | Source |
 |---------|--------|
-| "AI brain fry" — AI oversight predicts 12% more mental fatigue | [HBR/BCG, 2026](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
-| Power users burn out first — not from pressure, but from not stopping | [TechCrunch/UC Berkeley, 2026](https://techcrunch.com/2026/02/09/the-first-signs-of-burnout-are-coming-from-the-people-who-embrace-ai-the-most/) |
+| "AI brain fry" - AI oversight predicts 12% more mental fatigue | [HBR/BCG, 2026](https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry) |
+| Power users burn out first - not from pressure, but from not stopping | [TechCrunch/UC Berkeley, 2026](https://techcrunch.com/2026/02/09/the-first-signs-of-burnout-are-coming-from-the-people-who-embrace-ai-the-most/) |
 | 96% of frequent AI users work evenings/weekends monthly | [Scientific American](https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/) |
 | Devs were 19% slower with AI but thought they were 20% faster | [METR study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) |
 | 23 minutes to regain focus after an interruption | [Gloria Mark, UC Irvine](https://ics.uci.edu/~gmark/chi08-mark.pdf) |

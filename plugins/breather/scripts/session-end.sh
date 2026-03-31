@@ -1,5 +1,5 @@
 #!/bin/bash
-# Called by SessionEnd hook — logs session to history
+# Called by SessionEnd hook -- logs session to history
 set -euo pipefail
 
 STATE_DIR="${CLAUDE_PLUGIN_DATA:-${HOME}/.local/share/breather}"

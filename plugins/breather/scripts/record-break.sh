@@ -1,5 +1,5 @@
 #!/bin/bash
-# Called when user takes a break — updates session state
+# Called when user takes a break -- updates session state
 set -euo pipefail
 
 STATE_DIR="${CLAUDE_PLUGIN_DATA:-${HOME}/.local/share/breather}"
