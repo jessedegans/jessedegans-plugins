@@ -10,7 +10,10 @@
       "name": "breather",
       "description": "Stop AI brain fry. Automatic wellness monitoring for Claude Code.",
       "category": "productivity",
-      "source": "./plugins/breather"
+      "source": {
+        "source": "github",
+        "repo": "jessedegans/breather"
+      }
     }
   ]
 }
