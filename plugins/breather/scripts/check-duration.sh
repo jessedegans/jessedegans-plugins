@@ -21,7 +21,8 @@ if [ ! -f "$SESSION_FILE" ]; then
     last_full_break_ts: null,
     last_quick_break_ts: null,
     last_nudge_ts: 0,
-    intention: null
+    intention: null,
+    pattern_warning: ""
   }' > "$SESSION_FILE"
 fi
 
